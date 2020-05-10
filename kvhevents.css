@@ -1,0 +1,159 @@
+body{
+	margin:0;
+	/*padding: 70px;*/
+	background:linear-gradient(135deg, #828282 0%,#ffffff 100%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("https://lh3.googleusercontent.com/P21dU_eNVLtbu6QfAI7Yej0H-vOQn6FcRLA9mkwclN9wKDxHQ7hV9EKX0zyt6nJib5ztzvFu_eS5l4fPWslY-2jvo3HasMxQmccHeZkmM9DEtuf3zYOOcxFxW6QFMEmTqvdN5MpMvNkpbj4UoH201x_Fejk7djrvDdA25gzxlt54vQLE2MpmhUQ-UKiFRG5xEnkRxprk5QTuQowJh7hC-q2827xi_ZBbhlnvUSlVVykAbzQR1MECdhq0iKVwzLR8To6T2snJnPJoafqPGUm31Pv-App8CD-8mtMF3ZqLspZqJmzXv6wFIuMUV7wntQ0lSqiLnAv8a8Mt0kob02y167SpZYkVKADPyBSIAprODDmcMOXn6enbZe-dcXyu3AN9AgiIRgakuk3oWaHMdG4SaXowMDwS445Pz1j646078oDCX-RAZGckuz31wCqBDd8CWYpk91jkaBZlextAAOEJm4V3KZ8Mat2qB-PypbkdMH1RAeiVAKPKlUJLSz7H0veV5GLUitLCD4-hOtgv2gBI9jwSoCG3nmWbiWFLeRh-7Gu9PMnJyKKLWHw-NHSGrFFJtz8LoktprnWOLSrhUIo3aoSWlP8BZxGlLXNMZ58=w1204-h662-no");
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family: 'Play', sans-serif;
+}
+.navbar-default{
+	color:white;
+	background:rgba(42, 43, 43,0.7);
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a {
+    color:white;
+    font-size: 20px;
+}
+
+.jumbotron{
+	background:rgb(33, 91, 91);
+	color:white;
+}
+
+.navbar-header a img{
+	margin-top: -36%;
+	margin-left: -25%;
+}
+
+.navbar{
+	border-bottom: none;
+}
+
+.navbar-default .container .navbar-collapse li a:hover{
+	border-bottom: 3px solid rgb(131, 247, 247);
+	transition: all 0.2s ease-in;
+	padding-bottom:1px;
+	color:rgb(131, 247, 247);
+}
+
+#gal {
+	padding-top: 50px;
+}
+#content{
+	margin-top: 70px;
+}
+
+ #content h1{
+	text-align: center;
+	font-size:70px;
+	display:inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 3px solid rgb(131, 247, 247);
+	color:rgb(247, 244, 244);
+}
+
+#content p{
+	text-align: center;
+	font-size: 40px;
+	color:white;
+}
+
+
+     /* body {
+        font-family:Arial;
+        font-size:12px;
+        background:#ededed;
+      }*/
+      .example-desc {
+        margin:3px 0;
+        padding:5px;
+      }
+
+      #carousel {
+      	padding-top:0;
+      	margin: 0 auto;
+        width:1000px;
+        /*border:1px solid #222;*/
+        height:600px;
+        position:center;
+        clear:both;
+        overflow:hidden;
+        /*background:#FFF;*/
+      }
+      #carousel img {
+      	width:600px;
+      	height: 400px;
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+     #aage {
+     	text-align: center;
+     	font-size: 30px;
+     }
+     #prev,#next{
+     	color:white;
+     }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(131, 247, 247);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(42, 43, 43,0.7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgba(42, 43, 43,0.7)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
